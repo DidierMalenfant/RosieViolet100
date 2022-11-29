@@ -1,0 +1,40 @@
+# Setup
+title: RosieViolet100
+url: https://rosieviolet100.com
+paginate: 1
+baseurl: ""
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Specify the author for blog posts
+author:
+  name: Rosie Violet
+  url: https://rosieviolet100.com
+
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: About
+    url: /about
